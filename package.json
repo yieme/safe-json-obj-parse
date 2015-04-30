@@ -1,6 +1,6 @@
 {
   "name": "safe-json-obj-parse",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Safely parse JSON object string",
   "main": "index.js",
   "scripts": {
