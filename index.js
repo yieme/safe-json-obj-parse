@@ -63,6 +63,8 @@ function parse(jsObjString) {
   result = S(result).replaceAll("\n}", " }").s
   result = S(result).replaceAll("\n]", " ]").s
 
+  result = S(result).replaceAll(quoteEscape, '"').s
+
   try {
     return JSON.parse(result)
   } catch (e) { }
