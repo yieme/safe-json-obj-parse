@@ -1,0 +1,31 @@
+{
+  "name": "safe-json-obj-parse",
+  "version": "1.0.0",
+  "description": "Safely parse JSON object string",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yieme/safe-json-obj-parse.git"
+  },
+  "keywords": [
+    "json",
+    "parse",
+    "safe",
+    "javascript",
+    "object",
+    "js",
+    "object"
+  ],
+  "author": "yieme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yieme/safe-json-obj-parse/issues"
+  },
+  "homepage": "https://github.com/yieme/safe-json-obj-parse",
+  "dependencies": {
+    "string": "^3.1.1"
+  }
+}
