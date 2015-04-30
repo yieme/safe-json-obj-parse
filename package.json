@@ -1,10 +1,13 @@
 {
   "name": "safe-json-obj-parse",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Safely parse JSON object string",
   "main": "index.js",
   "scripts": {
     "test": "exit 0"
+  },
+  "bin": {
+    "safeparsejs": "./bin/cli.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +29,7 @@
   },
   "homepage": "https://github.com/yieme/safe-json-obj-parse",
   "dependencies": {
+    "get-stdin": "^4.0.1",
     "string": "^3.1.1"
   }
 }
