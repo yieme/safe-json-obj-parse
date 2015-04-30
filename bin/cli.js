@@ -8,6 +8,6 @@ var parse = require('../index.js')
 stdin(function (data) {
   if (data) {
     var result = parse(data)
-    console.log(result);
+    console.log(JSON.stringify(result));
   }
 })
